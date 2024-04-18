@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind in responsive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="main w-full h-screen bg-white font-['Playfair Display']">
+        <section class="container relative h-screen mx-auto px-3 py-5">
+            <nav class="nav flex px-3 py-5 justify-between items-center">
+                <h3>Blanche~Jackson</h3>
+                <div class="hidden lg:flex links gap-10">
+                    <a class="capitalize tracking-tighter" href="#">home</a>
+                    <a class="capitalize tracking-tighter opacity-50" href="#">work</a>
+                    <a class="capitalize tracking-tighter opacity-50" href="#">servises</a>
+                    <a class="capitalize tracking-tighter opacity-50" href="#">contact</a>
+                </div>
+                <i class="ri-menu-5-fill lg:hidden"></i>
+            </nav>
+            <section class="w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center flex-col">
+                <div class="image w-24 h-24 lg:w-32 lg:h-32 overflow-hidden rounded-full">
+                    <img class="w-full h-full object-cover" src="https://avatars.githubusercontent.com/u/140825779?s=100&v=4" alt="">
+                </div>
+                <h3 class="font-semibold lg:text-2xl capitalize mt-5">hii i'm sohel hussain 👋</h3>
+                <h1 class="leading-none text-4xl lg:text-5xl font-semibold text-center mt-3 w-3/4 tracking-tighter">Building digital products, brands, and expiriences.</h1>
+                <p class="text-center w-3/4 mt-6 opacity-70 font-semibold text-sm lg:text-lg tracking-tighter">Hi. I'm Oguz s Building digital products, brands, and experience. and Visual Development. </p>
+                <button class="px-4 py-2 lg:px-6 lg:py-3 bg-black text-white rounded-full text-xs lg:text-base font-semibold lg:font-medium tracking-tight mt-7">Connet with me</button>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
